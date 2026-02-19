@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --surface-2: #1c2128;
+    --border: #21262d;
+    --orange: #f97316;
+    --orange-dim: rgba(249, 115, 22, 0.15);
+    --green: #10b981;
+    --green-dim: rgba(16, 185, 129, 0.08);
+    --text-hi: #e6edf3;
+    --text-md: #8b949e;
+    --text-lo: #484f58;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text-hi);
+    font-family:
+      "Inter",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+  }
+}
