@@ -176,8 +176,6 @@ This separation makes each layer easy to test and maintain.
 
 ## 🚧 Future Enhancements
 
-Given more time, I would add:
-
 - [ ] Error boundary for graceful error handling
 - [ ] Component tests with React Testing Library
 - [ ] Skeleton loaders during initial fetch
